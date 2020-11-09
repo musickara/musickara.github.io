@@ -389,6 +389,9 @@ footer {
 /* MOBILE */
 @media only screen and (max-width: 992px) {
   /* jumbotron */
+  .body {
+    overflow-y: hiden;
+  }
   .landing {
     display: flex;
     flex-direction: column-reverse;
