@@ -494,6 +494,7 @@ footer {
     z-index: 2;
   }
   .wave {
+    bottom: -89px;
     height: 100vh;
     position: absolute;
   }
