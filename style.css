@@ -177,6 +177,7 @@ ol span{
   align-items: center;
   min-height: 100vh;
   background: #dfdfdf;
+  overflow-x: hidden;
 }
 /* test */
 .swiper-container {
@@ -331,7 +332,7 @@ ol span{
 
 /* footer */
 footer {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   overflow: hidden;
   background-color: #5a5a5a;
@@ -379,7 +380,19 @@ footer {
 .social a i {
   font: size 1.1rem;
 }
-.social a:hover{
+.fa-facebook:hover{
+  color: darkblue;
+}
+.fa-github:hover{
+  color: black;
+}
+.fa-instagram:hover{
+  color: #ff00d4;
+}
+.fa-youtube:hover{
+  color: red;
+}
+.fa-twitter:hover{
   color: #00b5fd;
 }
 .BHW{
@@ -389,17 +402,13 @@ footer {
 /* MOBILE */
 @media only screen and (max-width: 992px) {
   /* jumbotron */
-  .body {
-    overflow-y: hiden;
-  }
   .landing {
     display: flex;
     flex-direction: column-reverse;
-    height: 650px;
-    width: 500px;
+    height: 100vh;
+    width: 100wh;
     justify-content: center;
     text-align: center;
-    padding: 0px 0px 50px 0px;
     position: relative;
     z-index: 2;
   }
@@ -446,9 +455,9 @@ footer {
   .object-v1 {
     content: '';
     display: flex;
-    top: -400px;
-    height: 800px;
-    width: 800px;
+    top: -70%;
+    height: 100%;
+    width: 100%;
     background-color: #00b5fd;
     border-radius: 400px;
     position: absolute;
@@ -485,8 +494,9 @@ footer {
     z-index: 2;
   }
   .wave {
+    bottom: -89px;
+    height: 100vh;
     position: absolute;
-    bottom: -140px;
   }
   /* fitur */
   .aboutMe{
